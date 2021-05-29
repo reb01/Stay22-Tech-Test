@@ -147,6 +147,10 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 `;
 const Button = styled.button`
   width: 250px;

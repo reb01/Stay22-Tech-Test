@@ -31,10 +31,13 @@ const Wrapper = styled.div`
   border-width: 1px;
   border-color: black;
   height: 100px;
-  padding-left: 40px;
   padding-right: 100px;
   background-color: white;
   padding-left: 70px;
+  @media (max-width: 1100px) {
+    font-size: 17px;
+    padding: 20px;
+  }
 `;
 
 const Logo = styled(Link)``;
